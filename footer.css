@@ -1,0 +1,104 @@
+footer {
+    box-shadow: 0 -1px 3px rgb(0 0 0 / 10%), 0 -2px 2px rgb(0 0 0 / 6%), 0 0 2px rgb(0 0 0 / 7%);
+    height: 200px;
+    padding: 24px 0;
+}
+
+.footer-container {
+    display: flex;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.footer-container ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-container ul li {
+    color: rgba(0, 0, 0, 0.56);
+    padding-top: .8rem;
+    padding-bottom: .8rem;
+    margin-bottom: .8rem;
+    cursor: pointer;
+}
+
+.footer-container ul li:hover {
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.links-container {
+    width: 190px;
+    margin-right: 50px;
+}
+
+.footer h3 {
+    font-weight: 400;
+    font-size: 19px;
+    margin-bottom: 24px;
+}
+
+.footer-links {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.footer-links hr {
+    margin: 32px 0;
+}
+
+.footer-links ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.footer-links .social-links li {
+    height: 44px;
+    width: 44px;
+    padding-bottom: 7px;
+}
+
+.footer-links .social-links li i{
+    font-size: 32px;
+}
+
+.footer-links .other-links {
+    margin-top: 16px;
+}
+
+.footer-links .other-links li {
+    line-height: 24px;
+}
+
+.footer-links .other-links li a {
+    text-decoration: none;
+}
+
+.footer-links .other-links li a:hover {
+    text-decoration: underline;
+}
+
+.footer-links .other-links li span {
+    padding: 0 8px;
+}
+
+.footer-links .other-links li a {
+    padding-right: 16px;
+    padding-left: 16px;
+}
+
+.footer-links .other-links>:first-child a {
+    padding-right: 16px;
+    padding-left: 0;
+}
+
+.footer-links p {
+    color: rgba(0,0,0,.56);
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: -0.16px;
+    line-height: 21px;
+    padding-top: 16px;
+    padding-bottom: 40px;
+}
